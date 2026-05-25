@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PGVIM Course Management System</title>
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css"> </head>
+<body>
+
+  <div id="login-container" class="d-flex align-items-center justify-content-center vh-100 bg-light">
+    <div class="card p-4 shadow-sm text-center" style="max-width: 420px; width:100%;">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Logo_of_Princess_Galyani_Vadhana_Institute_of_Music.png" alt="PGVIM Logo" class="mx-auto mb-3" style="width: 70px;">
+      <h5 class="mb-1">PGVIM Course Console</h5>
+      <p class="text-muted small mb-4">เข้าใช้งานสำหรับอาจารย์และผู้ดูแลระบบ</p>
+      <button type="button" id="btn-login" class="btn btn-primary btn-lg w-100 fs-6">
+        <i class="fab fa-google me-2"></i> เข้าสู่ระบบด้วยอีเมลสถาบัน
+      </button>
+    </div>
+  </div>
+
+  <div id="app" class="app-shell d-flex" style="display: none !important;">
+     </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  
+  <script type="module" src="app.js"></script>
+</body>
+</html>
